@@ -1,5 +1,5 @@
 #!/bin/sh
 
-PYTHONPATH=$(pwd)
+export PYTHONPATH=$(pwd)
 
 pytest tests/ --capture=tee-sys --verbose
